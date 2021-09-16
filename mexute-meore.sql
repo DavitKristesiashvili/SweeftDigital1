@@ -1,4 +1,3 @@
-﻿
 ---pirveli varianti 
 select [dbo].[Teacher].* from [dbo].[Teacher] 
 join [dbo].[TeacherPupil] on [dbo].[TeacherPupil].TeacherID = [dbo].[Teacher].TeacherID 
